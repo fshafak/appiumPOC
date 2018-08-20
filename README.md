@@ -79,5 +79,5 @@ Mobile app testing
 - Feature files should have the tags e.g. @done @regression @smoke @essential. Different terms can be used. These tags will     allow us to prioritise and run our test as soon as they are completed.
 - Jenkins allows us to run relevant tests through these tags.
    For instance, below line is enough to trigger the job through Jenkins. 
-   verify -Dcucumber.options="--tags @driver --tags @done --tags @regression" -DconfigFile=jenkinsCH
+   verify -Dcucumber.options="--tags @driver --tags @done --tags @regression"
 
